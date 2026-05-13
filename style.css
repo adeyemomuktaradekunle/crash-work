@@ -1,0 +1,43 @@
+body{
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: skyblue;
+}
+h1{
+    text-align: center;
+    color: black;
+    margin-bottom: 30px;
+}
+form{
+    background-color: rgb(223, 223, 223);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 2px 10px rgba(0, 1.5, 0, 1);
+}
+label{
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: black;
+}
+input, textarea{
+    width: 100px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 15px;
+     font-family: 'Courier New', Courier, monospace;
+}
+button{
+    background-color: black;
+    padding: 12px 14px;
+    color: rgb(223, 223, 223);
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: blueviolet;
+}
